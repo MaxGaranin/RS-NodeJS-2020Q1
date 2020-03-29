@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./src/index.js",
-    "example": "npm start node ./src/index.js -- -s 2 -a encode",
+    "start": "node ./src/caesar_cli.js",
+    "example": "caesar_cli start node ./src/index.js -- -s 2 -a encode",
     "lint": "eslint ./src"
   },
   "keywords": [],
